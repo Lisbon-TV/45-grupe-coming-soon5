@@ -1,3 +1,8 @@
+:root {
+    --main-color: #03a9f5;
+    --secondary-color: #ea1e63;
+}
+
 body,
 body * {
     margin: 0;
@@ -10,3 +15,6 @@ body {
         sans-serif;
 }
 
+.bg-main {
+    background-color: var(--main-color);
+}
