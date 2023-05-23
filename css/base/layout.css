@@ -3,6 +3,7 @@
 }
 
 .row {
+    display: inline-block;
     width: 1000px;
     margin: 0 calc((100% - 1000px) / 2);
 }
@@ -10,6 +11,18 @@
 .row-short {
     width: 600px;
     margin: 0 calc((100% - 600px) / 2);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    float: left;
+}
+.column-right {
+    width: 40%;
+    margin-left: 10%;
 }
 
 /* width: */
